@@ -350,7 +350,8 @@ if __name__ == '__main__':
         "--ckpt_dir",
         type=str,
         # default='models/VACE-Wan2.1-1.3B-Preview',
-        default='models/Wan2.1-VACE-14B/',
+        # default='models/Wan2.1-VACE-14B/',
+        default='./Wan2.1-VACE-1.3B',
         help="The path to the checkpoint directory.",
     )
     parser.add_argument(
